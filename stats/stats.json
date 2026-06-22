@@ -1,20 +1,30 @@
 {
-  "total_solved": 1,
+  "total_solved": 2,
   "by_topic": {
-    "Math": 1
+    "Math": 1,
+    "Trees": 1
   },
   "by_difficulty": {
     "Easy": 0,
-    "Medium": 1,
+    "Medium": 2,
     "Hard": 0
   },
   "by_language": {
-    "text": 1
+    "text": 2
   },
   "current_streak": 1,
   "longest_streak": 1,
   "last_solved_date": "2026-06-22",
   "solve_log": [
+    {
+      "slug": "longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "topic": "Trees",
+      "difficulty": "Medium",
+      "language": "text",
+      "date": "2026-06-22",
+      "commit_sha": "29c63a5ffaf90027bd0a018a5df188d410f19146"
+    },
     {
       "slug": "add-two-numbers",
       "title": "Add Two Numbers",
