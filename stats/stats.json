@@ -1,0 +1,28 @@
+{
+  "total_solved": 1,
+  "by_topic": {
+    "Math": 1
+  },
+  "by_difficulty": {
+    "Easy": 0,
+    "Medium": 1,
+    "Hard": 0
+  },
+  "by_language": {
+    "text": 1
+  },
+  "current_streak": 1,
+  "longest_streak": 1,
+  "last_solved_date": "2026-06-22",
+  "solve_log": [
+    {
+      "slug": "add-two-numbers",
+      "title": "Add Two Numbers",
+      "topic": "Math",
+      "difficulty": "Medium",
+      "language": "text",
+      "date": "2026-06-22",
+      "commit_sha": "aad74be1bfbb6b2457161ad89489820e67d9e4d0"
+    }
+  ]
+}
