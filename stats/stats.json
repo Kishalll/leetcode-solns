@@ -1,21 +1,32 @@
 {
-  "total_solved": 2,
+  "total_solved": 3,
   "by_topic": {
     "Math": 1,
-    "Trees": 1
+    "Trees": 1,
+    "TwoPointers": 1
   },
   "by_difficulty": {
-    "Easy": 0,
+    "Easy": 1,
     "Medium": 2,
     "Hard": 0
   },
   "by_language": {
-    "text": 2
+    "text": 2,
+    "javascript": 1
   },
   "current_streak": 1,
   "longest_streak": 1,
   "last_solved_date": "2026-06-22",
   "solve_log": [
+    {
+      "slug": "longest-palindromic-substring",
+      "title": "Longest Palindromic Substring",
+      "topic": "TwoPointers",
+      "difficulty": "Easy",
+      "language": "javascript",
+      "date": "2026-06-22",
+      "commit_sha": "ef44111f8dfb3c459fad430076752b4159b93267"
+    },
     {
       "slug": "longest-substring-without-repeating-characters",
       "title": "Longest Substring Without Repeating Characters",
