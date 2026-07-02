@@ -1,0 +1,26 @@
+/**
+ * @param {number} x
+ * @return {number}
+ */
+var reverse = function(x) {
+    const INT_MAX = 2 ** 31 - 1;   //  2147483647
+    const INT_MIN = -(2 ** 31);    // -2147483648
+
+    let result = 0;
+    let num = x;
+
+    while (num !== 0) {
+        // Extract last digit; trunc toward zero works for negative numbers too
+        const digit = num % 10;
+        num = Math.trunc(num / 10);
+
+        result = result * 10 + digit;
+
+        // Check overflow after each step (since we can't use 64-bit ints)
+        if (result > INT_MAX || result < INT_MIN) {
+            return 0;
+        }
+    }
+
+    return result;
+};

@@ -1,7 +1,7 @@
 {
-  "total_solved": 5,
+  "total_solved": 6,
   "by_topic": {
-    "Math": 1,
+    "Math": 2,
     "Trees": 1,
     "TwoPointers": 1,
     "Strings": 1,
@@ -9,17 +9,26 @@
   },
   "by_difficulty": {
     "Easy": 3,
-    "Medium": 2,
+    "Medium": 3,
     "Hard": 0
   },
   "by_language": {
-    "text": 2,
+    "text": 3,
     "javascript": 3
   },
   "current_streak": 1,
   "longest_streak": 1,
   "last_solved_date": "2026-07-02",
   "solve_log": [
+    {
+      "slug": "reverse-integer",
+      "title": "Reverse Integer",
+      "topic": "Math",
+      "difficulty": "Medium",
+      "language": "text",
+      "date": "2026-07-02",
+      "commit_sha": "pending"
+    },
     {
       "slug": "median-of-two-sorted-arrays",
       "title": "Median of Two Sorted Arrays",
