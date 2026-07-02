@@ -1,23 +1,33 @@
 {
-  "total_solved": 3,
+  "total_solved": 4,
   "by_topic": {
     "Math": 1,
     "Trees": 1,
-    "TwoPointers": 1
+    "TwoPointers": 1,
+    "Strings": 1
   },
   "by_difficulty": {
-    "Easy": 1,
+    "Easy": 2,
     "Medium": 2,
     "Hard": 0
   },
   "by_language": {
     "text": 2,
-    "javascript": 1
+    "javascript": 2
   },
   "current_streak": 1,
   "longest_streak": 1,
-  "last_solved_date": "2026-06-22",
+  "last_solved_date": "2026-07-02",
   "solve_log": [
+    {
+      "slug": "zigzag-conversion",
+      "title": "Zigzag Conversion",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "language": "javascript",
+      "date": "2026-07-02",
+      "commit_sha": "6d925e6703ae7be1f2fb5c21a368f4915bd5f110"
+    },
     {
       "slug": "longest-palindromic-substring",
       "title": "Longest Palindromic Substring",
